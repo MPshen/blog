@@ -1,5 +1,3 @@
-/*mpshen*/
-
 body{
     background:url("http://coding.imweb.io/img/project/blog/bg.jpg") no-repeat right bottom fixed;
 }
@@ -47,7 +45,10 @@ h2{
 } */
 
 
-
+.article ol{
+    counter-reset: section;
+    list-style-type:none;
+}
 
 
 article ol li::before{
